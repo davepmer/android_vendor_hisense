@@ -19,7 +19,10 @@ PRODUCT_COPY_FILES += \
     vendor/asus/grouper/proprietary/bin/glgps:system/bin/glgps \
     vendor/asus/grouper/proprietary/bin/sensors-config:system/bin/sensors-config \
     vendor/asus/grouper/proprietary/bin/nvcpud:system/bin/nvcpud \
-    vendor/asus/grouper/proprietary/bin/nv_hciattach:system/bin/nv_hciattach
+    vendor/asus/grouper/proprietary/bin/nv_hciattach:system/bin/nv_hciattach \
+    vendor/asus/grouper/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
+    vendor/asus/grouper/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android
+
 
 
 # /system/etc
@@ -120,8 +123,6 @@ PRODUCT_COPY_FILES += \
   vendor/hisense/m470/proprietary/vendor/firmware/BCM20791B4_002.005.010.0103.0000_Hisense_I2CGED_NCD_Signed_Test.ncd:system/vendor/firmware/BCM20791B4_002.005.010.0103.0000_Hisense_I2CGED_NCD_Signed_Test.ncd \
   vendor/hisense/m470/proprietary/vendor/firmware/BCM20791B4_002.005.010.0103.0000_Hisense_PreI2C_NCD_Signed_Test.ncd:system/vendor/firmware/BCM20791B4_002.005.010.0103.0000_Hisense_PreI2C_NCD_Signed_Test.ncd \
   vendor/hisense/m470/proprietary/vendor/firmware/tlv320aic3206_fw_v1.bin:system/vendor/firmware/tlv320aic3206_fw_v1.bin \
-  vendor/hisense/m470/proprietary/vendor/firmware/bcm4330/fw_bcmdhd.bin:system/vendor/firmware/bcm4330/fw_bcmdhd.bin \
-  vendor/hisense/m470/proprietary/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin:system/vendor/firmware/bcm4330/fw_bcmdhd_apsta.bin \
   vendor/hisense/m470/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
   vendor/hisense/m470/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
   vendor/hisense/m470/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \

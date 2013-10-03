@@ -15,9 +15,12 @@
 # /system/bin
 PRODUCT_COPY_FILES += \
     vendor/asus/grouper/proprietary/bin/btmacreader:system/bin/btmacreader \
+    vendor/asus/grouper/proprietary/bin/btmacwriter:system/bin/btmacwriter \
     vendor/asus/grouper/proprietary/bin/glgps:system/bin/glgps \
     vendor/asus/grouper/proprietary/bin/sensors-config:system/bin/sensors-config \
-    vendor/asus/grouper/proprietary/bin/tf_daemon:system/bin/tf_daemon
+    vendor/asus/grouper/proprietary/bin/nvcpud:system/bin/nvcpud \
+    vendor/asus/grouper/proprietary/bin/nv_hciattach:system/bin/nv_hciattach
+
 
 # /system/etc
 PRODUCT_COPY_FILES += \
@@ -32,6 +35,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/grouper/proprietary/etc/gps/gpsconfig.xml:system/etc/gps/gpsconfig.xml \
     vendor/asus/grouper/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
     vendor/asus/grouper/proprietary/etc/nvram.txt:system/etc/nvram.txt \
+    vendor/asus/grouper/proprietary/etc/nvram_4330.txt:system/etc/nvram_4330.txt \
     vendor/hisense/m470/proprietary/etc/broadcom/bt/testmode.sh:system/etc/broadcom/bt/testmode.sh \
     vendor/hisense/m470/proprietary/etc/broadcom/gps/testgps.sh:system/etc/broadcom/gps/testgps.sh \
     vendor/hisense/m470/proprietary/etc/broadcom/gps/testmode.sh:system/etc/broadcom/gps/testmode.sh \

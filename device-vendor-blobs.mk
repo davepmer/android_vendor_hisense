@@ -23,8 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
     vendor/hisense/m470/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android
 
-
-
 # /system/etc
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/etc/asound.conf:system/etc/asound.conf \
@@ -116,7 +114,8 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libnvwsi.so:system/lib/libnvwsi.so \
     vendor/hisense/m470/proprietary/lib/libsensors.lightsensor.so:system/lib/libsensors.lightsensor.so \
     vendor/hisense/m470/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
-    vendor/hisense/m470/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so
+    vendor/hisense/m470/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
+    vendor/hisense/m470/proprietary/lib/libagps-brcm4751.so:system/lib/libagps-brcm4751.so
 
 # /system/vendor
 PRODUCT_COPY_FILES += \
@@ -129,3 +128,7 @@ PRODUCT_COPY_FILES += \
   vendor/hisense/m470/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
   vendor/hisense/m470/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/hisense/m470/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
+
+# /system/usr
+#PRODUCT_COPY_FILES += \
+

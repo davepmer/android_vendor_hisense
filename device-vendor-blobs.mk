@@ -65,7 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/hw/gps.tegra3.so:system/lib/hw/gps.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/gralloc.tegra3.so:system/lib/hw/gralloc.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/hwcomposer.tegra3.so:system/lib/hw/hwcomposer.tegra3.so \
-    vendor/hisense/m470/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/hisense/m470/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/hisense/m470/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/hisense/m470/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
@@ -115,7 +114,8 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libsensors.lightsensor.so:system/lib/libsensors.lightsensor.so \
     vendor/hisense/m470/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hisense/m470/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
-    vendor/hisense/m470/proprietary/lib/libagps-brcm4751.so:system/lib/libagps-brcm4751.so
+    vendor/hisense/m470/proprietary/lib/libagps-brcm4751.so:system/lib/libagps-brcm4751.so \
+    vendor/hisense/m470/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
 
 # /system/vendor
 PRODUCT_COPY_FILES += \

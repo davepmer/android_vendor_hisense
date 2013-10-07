@@ -33,6 +33,8 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/etc/firmware/nvavp_os_eff00000.bin:system/etc/firmware/nvavp_os_eff00000.bin \
     vendor/hisense/m470/proprietary/etc/firmware/nvavp_vid_ucode_alt.bin:system/etc/firmware/nvavp_vid_ucode_alt.bin \
     vendor/hisense/m470/proprietary/etc/firmware/touch_fw.ekt:system/etc/firmware/touch_fw.ekt \
+    vendor/hisense/m470/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
+    vendor/hisense/m470/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
     vendor/hisense/m470/proprietary/etc/gps/gpsconfig.xml:system/etc/gps/gpsconfig.xml \
     vendor/hisense/m470/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
     vendor/hisense/m470/proprietary/etc/nvram_4330.txt:system/etc/nvram.txt \

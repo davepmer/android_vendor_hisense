@@ -54,7 +54,8 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/etc/broadcom/wifi/txbg_fast.sh:system/etc/broadcom/wifi/txbg_fast.sh \
     vendor/hisense/m470/proprietary/etc/broadcom/wifi/txn.sh:system/etc/broadcom/wifi/txn.sh \
     vendor/hisense/m470/proprietary/etc/broadcom/wifi/txn5g.sh:system/etc/broadcom/wifi/txn5g.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/txunmod.sh:system/etc/broadcom/wifi/txunmod.sh
+    vendor/hisense/m470/proprietary/etc/broadcom/wifi/txunmod.sh:system/etc/broadcom/wifi/txunmod.sh \
+    vendor/hisense/m470/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf
 
 # /system/lib
 PRODUCT_COPY_FILES += \

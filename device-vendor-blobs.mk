@@ -71,6 +71,9 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/hisense/m470/proprietary/lib/hw/nfc.tegra3.so:system/lib/hw/nfc.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/nfc_nci_nfca.default.so:system/lib/hw/nfc_nci_nfca.default.so \
+    vendor/hisense/m470/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
+    vendor/hisense/m470/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
+    vendor/hisense/m470/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/hisense/m470/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/hisense/m470/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/hisense/m470/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \

@@ -71,8 +71,8 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
     vendor/hisense/m470/proprietary/lib/hw/nfc.tegra3.so:system/lib/hw/nfc.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/nfc_nci_nfca.default.so:system/lib/hw/nfc_nci_nfca.default.so \
-    vendor/hisense/m470/proprietary/lib/hw/audio.primary.tegra.so:system/lib/hw/audio.primary.tegra.so \
-    vendor/hisense/m470/proprietary/lib/hw/audio_policy.tegra.so:system/lib/hw/audio_policy.tegra.so \
+    vendor/hisense/m470/proprietary/lib/hw/audio.primary.tegra3.so:system/lib/hw/audio.primary.tegra3.so \
+    vendor/hisense/m470/proprietary/lib/hw/audio_policy.tegra3.so:system/lib/hw/audio_policy.tegra3.so \
     vendor/hisense/m470/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/hisense/m470/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/hisense/m470/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
@@ -80,10 +80,16 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/hisense/m470/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/hisense/m470/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
+    vendor/hisense/m470/proprietary/lib/libnvcap.so:system/lib/libnvcap.so \
+    vendor/hisense/m470/proprietary/lib/libnvcapclk.so:system/lib/libnvcapclk.so \
+    vendor/hisense/m470/proprietary/lib/libnvcap_video.so:system/lib/libnvcap_video.so \
+    vendor/hisense/m470/proprietary/lib/libnvcontrol_jni.so:system/lib/libnvcontrol_jni.so \
+    vendor/hisense/m470/proprietary/lib/libnvcpl.so:system/lib/libnvcpl.so \
     vendor/hisense/m470/proprietary/lib/libnvapputil.so:system/lib/libnvapputil.so \
     vendor/hisense/m470/proprietary/lib/libnvasfparserhal.so:system/lib/libnvasfparserhal.so \
     vendor/hisense/m470/proprietary/lib/libnvaviparserhal.so:system/lib/libnvaviparserhal.so \
     vendor/hisense/m470/proprietary/lib/libnvavp.so:system/lib/libnvavp.so \
+    vendor/hisense/m470/proprietary/lib/libnvaudioservice.so:system/lib/libnvaudioservice.so \
     vendor/hisense/m470/proprietary/lib/libnvcamerahdr.so:system/lib/libnvcamerahdr.so \
     vendor/hisense/m470/proprietary/lib/libnvddk_2d.so:system/lib/libnvddk_2d.so \
     vendor/hisense/m470/proprietary/lib/libnvddk_2d_v2.so:system/lib/libnvddk_2d_v2.so \
@@ -112,6 +118,9 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libnvodm_query.so:system/lib/libnvodm_query.so \
     vendor/hisense/m470/proprietary/lib/libnvomxilclient.so:system/lib/libnvomxilclient.so \
     vendor/hisense/m470/proprietary/lib/libnvomx.so:system/lib/libnvomx.so \
+    vendor/hisense/m470/proprietary/lib/libnvomxadaptor.so:system/lib/libnvomxadaptor.so \
+    vendor/hisense/m470/proprietary/lib/libnvoice.so:system/lib/libnvoice.so \
+    vendor/hisense/m470/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/hisense/m470/proprietary/lib/libnvos.so:system/lib/libnvos.so \
     vendor/hisense/m470/proprietary/lib/libnvparser.so:system/lib/libnvparser.so \
     vendor/hisense/m470/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \

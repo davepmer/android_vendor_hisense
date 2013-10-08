@@ -136,7 +136,3 @@ PRODUCT_COPY_FILES += \
   vendor/hisense/m470/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
   vendor/hisense/m470/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
   vendor/hisense/m470/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so
-
-# /system/usr
-#PRODUCT_COPY_FILES += \
-

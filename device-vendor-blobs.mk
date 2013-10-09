@@ -82,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/hisense/m470/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/hisense/m470/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
+    vendor/hisense/m470/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
     vendor/hisense/m470/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/hisense/m470/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/hisense/m470/proprietary/lib/libmllite.so:system/lib/libmllite.so \

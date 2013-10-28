@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
 
 # /system/etc
 PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/proprietary/etc/asound.conf:system/etc/asound.conf \
     vendor/hisense/m470/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
     vendor/hisense/m470/proprietary/etc/firmware/nvavp_os_00001000.bin:system/etc/firmware/nvavp_os_00001000.bin \
     vendor/hisense/m470/proprietary/etc/firmware/nvavp_os_0ff00000.bin:system/etc/firmware/nvavp_os_0ff00000.bin \
@@ -35,29 +34,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/etc/firmware/touch_fw.ekt:system/etc/firmware/touch_fw.ekt \
     vendor/hisense/m470/proprietary/etc/firmware/nvavp_aud_ucode.bin:system/etc/firmware/nvavp_aud_ucode.bin \
     vendor/hisense/m470/proprietary/etc/firmware/nvavp_vid_ucode.bin:system/etc/firmware/nvavp_vid_ucode.bin \
-    vendor/hisense/m470/proprietary/etc/gps/gpsconfig.xml:system/etc/gps/gpsconfig.xml \
-    vendor/hisense/m470/proprietary/etc/nvcamera.conf:system/etc/nvcamera.conf \
-    vendor/hisense/m470/proprietary/etc/nvram_4330.txt:system/etc/nvram.txt \
-    vendor/hisense/m470/proprietary/etc/nvram_4330.txt:system/etc/nvram_4330.txt \
-    vendor/hisense/m470/proprietary/etc/broadcom/bt/testmode.sh:system/etc/broadcom/bt/testmode.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/gps/testgps.sh:system/etc/broadcom/gps/testgps.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/gps/testmode.sh:system/etc/broadcom/gps/testmode.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/bcmdhd.ko:system/etc/broadcom/wifi/bcmdhd.ko \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/cfg80211.ko:system/etc/broadcom/wifi/cfg80211.ko \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/fw_bcmdhd_test.bin:system/etc/broadcom/wifi/fw_bcmdhd_test.bin \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/inswifi.sh:system/etc/broadcom/wifi/inswifi.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/rmwifi.sh:system/etc/broadcom/wifi/rmwifi.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/rx.sh:system/etc/broadcom/wifi/rx.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/rxn.sh:system/etc/broadcom/wifi/rxn.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/stop.sh:system/etc/broadcom/wifi/stop.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/txa.sh:system/etc/broadcom/wifi/txa.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/txa_fast.sh:system/etc/broadcom/wifi/txa_fast.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/txbg.sh:system/etc/broadcom/wifi/txbg.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/txbg_fast.sh:system/etc/broadcom/wifi/txbg_fast.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/txn.sh:system/etc/broadcom/wifi/txn.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/txn5g.sh:system/etc/broadcom/wifi/txn5g.sh \
-    vendor/hisense/m470/proprietary/etc/broadcom/wifi/txunmod.sh:system/etc/broadcom/wifi/txunmod.sh \
-    vendor/hisense/m470/proprietary/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf
+    vendor/hisense/m470/proprietary/etc/broadcom/wifi/fw_bcmdhd_test.bin:system/etc/broadcom/wifi/fw_bcmdhd_test.bin
 
 # /system/lib
 PRODUCT_COPY_FILES += \

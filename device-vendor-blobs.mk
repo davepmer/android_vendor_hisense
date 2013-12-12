@@ -46,7 +46,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/hw/gralloc.tegra3.so:system/lib/hw/gralloc.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/hwcomposer.tegra3.so:system/lib/hw/hwcomposer.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so \
-    vendor/hisense/m470/proprietary/lib/hw/nfc.tegra3.so:system/lib/hw/nfc.tegra3.so \
+    vendor/hisense/m470/proprietary/lib/hw/nfc.tegra.so:system/lib/hw/nfc.tegra.so \
     vendor/hisense/m470/proprietary/lib/hw/nfc_nci_nfca.default.so:system/lib/hw/nfc_nci_nfca.default.so \
     vendor/hisense/m470/proprietary/lib/hw/audio.primary.tegra3.so:system/lib/hw/audio.primary.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/audio_policy.tegra3.so:system/lib/hw/audio_policy.tegra3.so \

@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/hisense/m470/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     vendor/hisense/m470/proprietary/lib/libjni_latinime.so:system/lib/libjni_latinime.so \
+    vendor/hisense/m470/proprietary/lib/libmedia_native.so:system/lib/libmedia_native.so \
     vendor/hisense/m470/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     vendor/hisense/m470/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
     vendor/hisense/m470/proprietary/lib/libnvcap.so:system/lib/libnvcap.so \

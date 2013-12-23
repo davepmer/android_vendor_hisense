@@ -23,6 +23,9 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/bin/nvtest:system/bin/nvtest \
     vendor/hisense/m470/proprietary/bin/python:system/bin/python \
     vendor/hisense/m470/proprietary/bin/sensors-config:system/bin/sensors-config \
+    vendor/hisense/m470/proprietary/bin/tegrastats:system/bin/tegrastats \
+    vendor/hisense/m470/proprietary/bin/test-device:system/bin/test-device \
+    vendor/hisense/m470/proprietary/bin/test-wvdrmplugin:system/bin/test-wvdrmplugin \
     vendor/hisense/m470/proprietary/bin/tf_daemon:system/bin/tf_daemon \
     vendor/hisense/m470/proprietary/bin/tinycap:system/bin/tinycap \
     vendor/hisense/m470/proprietary/bin/tinymix:system/bin/tinymix \
@@ -113,6 +116,8 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libnvrm_graphics.so:system/lib/libnvrm_graphics.so \
     vendor/hisense/m470/proprietary/lib/libnvrm.so:system/lib/libnvrm.so \
     vendor/hisense/m470/proprietary/lib/libnvsm.so:system/lib/libnvsm.so \
+    vendor/hisense/m470/proprietary/lib/libnvtestio.so:system/lib/libnvtestio.so \
+    vendor/hisense/m470/proprietary/lib/libnvtestresults.so:system/lib/libnvtestresults.so \
     vendor/hisense/m470/proprietary/lib/libnvtvmr.so:system/lib/libnvtvmr.so \
     vendor/hisense/m470/proprietary/lib/libnvwinsys.so:system/lib/libnvwinsys.so \
     vendor/hisense/m470/proprietary/lib/libpython2.6.so:system/lib/libpython2.6.so \

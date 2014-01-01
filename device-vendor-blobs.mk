@@ -47,8 +47,14 @@ PRODUCT_COPY_FILES += \
 # /system/lib
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/egl/libEGL_tegra.so:system/lib/egl/libEGL_tegra.so \
+    vendor/hisense/m470/proprietary/lib/egl/libEGL_tegra_impl.so:system/lib/egl/libEGL_tegra_impl.so \
+    vendor/hisense/m470/proprietary/lib/egl/libEGL_perfhud.so:system/lib/egl/libEGL_perfhud.so \
     vendor/hisense/m470/proprietary/lib/egl/libGLESv1_CM_tegra.so:system/lib/egl/libGLESv1_CM_tegra.so \
+    vendor/hisense/m470/proprietary/lib/egl/libGLESv1_CM_perfhud.so:system/lib/egl/libGLESv1_CM_perfhud.so \
+    vendor/hisense/m470/proprietary/lib/egl/libGLESv1_CM_tegra_impl.so:system/lib/egl/libGLESv1_CM_tegra_impl.so \
     vendor/hisense/m470/proprietary/lib/egl/libGLESv2_tegra.so:system/lib/egl/libGLESv2_tegra.so \
+    vendor/hisense/m470/proprietary/lib/egl/libGLESv2_perfhud.so:system/lib/egl/libGLESv2_perfhud.so \
+    vendor/hisense/m470/proprietary/lib/egl/libGLESv2_tegra_impl.so:system/lib/egl/libGLESv2_tegra_impl.so \
     vendor/hisense/m470/proprietary/lib/hw/camera.tegra3.so:system/lib/hw/camera.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/gps.tegra3.so:system/lib/hw/gps.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/gralloc.tegra3.so:system/lib/hw/gralloc.tegra3.so \
@@ -126,7 +132,17 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libsensors.lightsensor.so:system/lib/libsensors.lightsensor.so \
     vendor/hisense/m470/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hisense/m470/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
-    vendor/hisense/m470/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so
+    vendor/hisense/m470/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+    vendor/hisense/m470/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
+    vendor/hisense/m470/proprietary/lib/libtjpg.so:system/lib/libtjpg.so \
+    vendor/hisense/m470/proprietary/lib/libnvglsi.so:system/lib/libnvglsi.so \
+    vendor/hisense/m470/proprietary/lib/libnvhdmi3dplay_jni.so:system/lib/libnvhdmi3dplay_jni.so \
+    vendor/hisense/m470/proprietary/lib/libnvmm_asfparser.so:system/lib/libnvmm_asfparser.so \
+    vendor/hisense/m470/proprietary/lib/libnvmm_aviparser.so:system/lib/libnvmm_aviparser.so \
+    vendor/hisense/m470/proprietary/lib/libnvmm_vc1_video.so:system/lib/libnvmm_vc1_video.so \
+    vendor/hisense/m470/proprietary/lib/libnvstitching.so:system/lib/libnvstitching.so \
+    vendor/hisense/m470/proprietary/lib/libopencv24_tegra.so:system/lib/libopencv24_tegra.so \
+    vendor/hisense/m470/proprietary/lib/libtbb.so:system/lib/libtbb.so
 
 # /system/lib/python2.6
 PRODUCT_COPY_FILES += \

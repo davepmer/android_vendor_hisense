@@ -162,12 +162,12 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/hisense/m470/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hisense/m470/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
-    vendor/hisense/m470/proprietary/lib/libtbb.so:system/lib/libtbb.so
+    vendor/hisense/m470/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/hisense/m470/proprietary/lib/libtf_crypto_sst.so:system/lib/libtf_crypto_sst.so \
     vendor/hisense/m470/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/hisense/m470/proprietary/lib/libtjpg.so:system/lib/libtjpg.so \
     vendor/hisense/m470/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/hisense/m470/proprietary/lib/scapture.so:system/scapture.so \
+    vendor/hisense/m470/proprietary/lib/scapture.so:system/scapture.so
 
 
 # /system/lib/python2.6

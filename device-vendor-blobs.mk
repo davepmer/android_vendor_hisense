@@ -17,6 +17,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
     vendor/hisense/m470/proprietary/bin/btmacwriter:system/bin/btmacwriter \
     vendor/hisense/m470/proprietary/bin/dbus-daemon:system/bin/dbus-daemon \
+    vendor/hisense/m470/proprietary/bin/glgps:system/bin/glgps \
     vendor/hisense/m470/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android \
     vendor/hisense/m470/proprietary/bin/nvcpud:system/bin/nvcpud \
     vendor/hisense/m470/proprietary/bin/nv_hciattach:system/bin/nv_hciattach \
@@ -75,7 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/hisense/m470/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/hisense/m470/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
-    vendor/hisense/m470/proprietary/lib/libchromeview.so:system/lib/libcgdrv.so \
+    vendor/hisense/m470/proprietary/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/hisense/m470/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
     vendor/hisense/m470/proprietary/lib/libdbus.so:system/lib/libdbus.so \
     vendor/hisense/m470/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \

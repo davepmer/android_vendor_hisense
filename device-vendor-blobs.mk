@@ -167,7 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/hisense/m470/proprietary/lib/libtjpg.so:system/lib/libtjpg.so \
     vendor/hisense/m470/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/hisense/m470/proprietary/lib/scapture.so:system/scapture.so
+    vendor/hisense/m470/proprietary/lib/scapture.so:system/lib/scapture.so
 
 
 # /system/lib/python2.6

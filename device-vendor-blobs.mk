@@ -17,7 +17,8 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
     vendor/hisense/m470/proprietary/bin/btmacwriter:system/bin/btmacwriter \
     vendor/hisense/m470/proprietary/bin/dbus-daemon:system/bin/dbus-daemon \
-    vendor/hisense/m470/proprietary/bin/glgps:system/bin/glgps \
+    vendor/hisense/m470/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps \
+    vendor/hisense/m470/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android \
     vendor/hisense/m470/proprietary/bin/nvcpud:system/bin/nvcpud \
     vendor/hisense/m470/proprietary/bin/nv_hciattach:system/bin/nv_hciattach \
     vendor/hisense/m470/proprietary/bin/sensorservice:system/bin/sensorservice \
@@ -25,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/bin/tinycap:system/bin/tinycap \
     vendor/hisense/m470/proprietary/bin/tinymix:system/bin/tinymix \
     vendor/hisense/m470/proprietary/bin/tinyplay:system/bin/tinyplay \
+    vendor/hisense/m470/proprietary/bin/wifimacwriter.sh:system/bin/wifimacwriter.sh \
     vendor/hisense/m470/proprietary/bin/xaplay:system/bin/xaplay
 
 

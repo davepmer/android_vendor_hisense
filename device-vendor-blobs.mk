@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/bin/tinycap:system/bin/tinycap \
     vendor/hisense/m470/proprietary/bin/tinymix:system/bin/tinymix \
     vendor/hisense/m470/proprietary/bin/tinyplay:system/bin/tinyplay \
-    vendor/hisense/m470/proprietary/bin/wifimacwriter.sh:system/bin/wifimacwriter.sh \
     vendor/hisense/m470/proprietary/bin/xaplay:system/bin/xaplay
 
 

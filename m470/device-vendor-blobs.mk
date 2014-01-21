@@ -12,22 +12,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# /system/app
+PRODUCT_COPY_FILES +=\
+    vendor/hisense/m470/proprietary/app/NvCPLSvc.apk:system/app/NvCPLSvc.apk
+
 # /system/bin
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
     vendor/hisense/m470/proprietary/bin/btmacwriter:system/bin/btmacwriter \
     vendor/hisense/m470/proprietary/bin/dbus-daemon:system/bin/dbus-daemon \
-    vendor/hisense/m470/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps \
     vendor/hisense/m470/proprietary/bin/glgps_nvidiaTegra2android:system/bin/glgps_nvidiaTegra2android \
     vendor/hisense/m470/proprietary/bin/nvcpud:system/bin/nvcpud \
     vendor/hisense/m470/proprietary/bin/nv_hciattach:system/bin/nv_hciattach \
     vendor/hisense/m470/proprietary/bin/sensorservice:system/bin/sensorservice \
-    vendor/hisense/m470/proprietary/bin/tegrastats:system/bin/tegrastats \
-    vendor/hisense/m470/proprietary/bin/tinycap:system/bin/tinycap \
-    vendor/hisense/m470/proprietary/bin/tinymix:system/bin/tinymix \
-    vendor/hisense/m470/proprietary/bin/tinyplay:system/bin/tinyplay \
-    vendor/hisense/m470/proprietary/bin/xaplay:system/bin/xaplay
-
+    vendor/hisense/m470/proprietary/bin/tegrastats:system/bin/tegrastats
 
 # /system/etc
 PRODUCT_COPY_FILES += \
@@ -53,7 +51,9 @@ PRODUCT_COPY_FILES += \
 
 # /system/lib/hw
 PRODUCT_COPY_FILES += \
+    vendor/hisense/m470/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
     vendor/hisense/m470/proprietary/lib/hw/audio.primary.tegra3.so:system/lib/hw/audio.primary.tegra3.so \
+    vendor/hisense/m470/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     vendor/hisense/m470/proprietary/lib/hw/audio_policy.tegra3.so:system/lib/hw/audio_policy.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/camera.tegra3.so:system/lib/hw/camera.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/gps.tegra3.so:system/lib/hw/gps.tegra3.so \
@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libardrv_dynamic.so:system/lib/libardrv_dynamic.so \
     vendor/hisense/m470/proprietary/lib/libasound.so:system/lib/libasound.so \
     vendor/hisense/m470/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
+    vendor/hisense/m470/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
     vendor/hisense/m470/proprietary/lib/libcgdrv.so:system/lib/libcgdrv.so \
     vendor/hisense/m470/proprietary/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/hisense/m470/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
@@ -155,7 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libsensors.lightsensor.so:system/lib/libsensors.lightsensor.so \
     vendor/hisense/m470/proprietary/lib/libsmapi.so:system/lib/libsmapi.so \
     vendor/hisense/m470/proprietary/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
-    vendor/hisense/m470/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/hisense/m470/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
     vendor/hisense/m470/proprietary/lib/libtbb.so:system/lib/libtbb.so \
     vendor/hisense/m470/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \

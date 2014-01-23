@@ -14,5 +14,15 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
-$(call inherit-product, vendor/hisense/m470/device-vendor-blobs.mk)
-$(call inherit-product, vendor/hisense/m470/device-tf300t-drm-blobs.mk)
+LOCAL_STEM := m470/device-partial.mk
+
+$(call inherit-product-if-exists, vendor/hisense/m470/broadcom/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/hisense/m470/hisense/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/hisense/m470/invensense/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/hisense/m470/nvidia/$(LOCAL_STEM))
+$(call inherit-product-if-exists, vendor/hisense/m470/widevine/$(LOCAL_STEM))
+
+PRODUCT_RESTRICT_VENDOR_FILES := owner
+
+$(call inherit-product, vendor/hisense/m470/device-partial.mk)
+

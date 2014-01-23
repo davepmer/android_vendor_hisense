@@ -1,2 +1,5 @@
+
+    vendor/hisense/m470/proprietary/bin/sensorservice:system/bin/sensorservice \
+
  \
-    vendor/hisense/m470/proprietary/bin/wifimacwriter:system/bin/wifimacwriter
+  vendor/hisense/m470/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so

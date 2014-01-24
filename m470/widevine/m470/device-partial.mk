@@ -16,7 +16,9 @@
 PRODUCT_PACKAGES := \
     libdrm1 \
     libdrm1_jni \
-    libwvdrm_L1 \
+    libdrmdecrypt \
+    libwvdrm_L3 \
+    libWVDrmUtils \
     libWVphoneAPI \
-    libWVStreamControlAPI_L1 \
-    test-wvdrmplugin
+    libWVStreamControlAPI_L3 \
+    wvdrmserver

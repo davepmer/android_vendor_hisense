@@ -16,16 +16,15 @@
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/app/DrmProvider.apk:system/app/DrmProvider.apk
 
-
 # /system/etc
 PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/proprietary/etc/m470-stock-drm:system/etc/m470-stock-drm
+    vendor/hisense/m470/proprietary/etc/m470-tf300t-drm:system/etc/m470-tf300t-drm
 
 # /system/etc/permissions
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml
 
-# /system/etc/permissions
+# /system/framework
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
 

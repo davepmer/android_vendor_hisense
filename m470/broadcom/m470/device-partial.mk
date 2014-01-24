@@ -17,6 +17,8 @@ PRODUCT_PACKAGES := \
     BCM20791B4_002.005.010.0103.0000_Hisense_I2CGED_NCD_Signed_Test \
     BCM20791B4_002.005.010.0103.0000_Hisense_PreI2C_NCD_Signed_Test \
     bcm4330 \
+    brcm_patchram_plus \
+    btmacwriter \
     glgps_nvidiaTegra2android \
     gpsconfig \
     gps.tegra3 \

@@ -15,6 +15,8 @@
 # Hisense blob(s) necessary for m470 hardware
 PRODUCT_PACKAGES := \
     camera.tegra3 \
+    libasound \
+    libaudioavp \
     libdrmwvmplugin \
     libsensors.lightsensor \
     libwvm \

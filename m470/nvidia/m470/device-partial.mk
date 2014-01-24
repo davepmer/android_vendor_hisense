@@ -98,6 +98,7 @@ PRODUCT_PACKAGES := \
     nvcpud \
     nv_hciattach \
     nvram_4330 \
+    tegrastats \
     tf_daemon 
 
 PRODUCT_PACKAGES += keystore.m470

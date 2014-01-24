@@ -12,16 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# /system/app
+# /system/etc
 PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/proprietary/app/NvCPLSvc.apk:system/app/NvCPLSvc.apk
-
-# /system/bin
-PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/proprietary/bin/brcm_patchram_plus:system/bin/brcm_patchram_plus \
-    vendor/hisense/m470/proprietary/bin/btmacwriter:system/bin/btmacwriter \
-    vendor/hisense/m470/proprietary/bin/dbus-daemon:system/bin/dbus-daemon \
-    vendor/hisense/m470/proprietary/bin/tegrastats:system/bin/tegrastats
+    vendor/hisense/m470/proprietary/etc/m470-grouper-drm:system/etc/m470-grouper-drm
 
 # /system/lib/hw
 PRODUCT_COPY_FILES += \
@@ -36,12 +29,9 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/bcapture.so:system/lib/bcapture.so \
     vendor/hisense/m470/proprietary/lib/libagps-brcm4751.so:system/lib/libagps-brcm4751.so \
     vendor/hisense/m470/proprietary/lib/libAppDataSearch.so:system/lib/libAppDataSearch.so \
-    vendor/hisense/m470/proprietary/lib/libasound.so:system/lib/libasound.so \
-    vendor/hisense/m470/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/hisense/m470/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
     vendor/hisense/m470/proprietary/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/hisense/m470/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
-    vendor/hisense/m470/proprietary/lib/libdbus.so:system/lib/libdbus.so \
     vendor/hisense/m470/proprietary/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
     vendor/hisense/m470/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/hisense/m470/proprietary/lib/libfrsdk.so:system/lib/libfrsdk.so \
@@ -63,3 +53,7 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/hisense/m470/proprietary/lib/libtjpg.so:system/lib/libtjpg.so \
     vendor/hisense/m470/proprietary/lib/scapture.so:system/lib/scapture.so
+
+# /system/vendor/lib
+PRODUCT_COPY_FILES += \
+    vendor/hisense/m470/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so

@@ -47,6 +47,24 @@ LOCAL_MODULE_OWNER := broadcom
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := brcm_patchram_plus
+LOCAL_SRC_FILES := brcm_patchram_plus
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := broadcom
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := btmacwriter
+LOCAL_SRC_FILES := btmacwriter
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := broadcom
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := glgps_nvidiaTegra2android
 LOCAL_SRC_FILES := glgps_nvidiaTegra2android
 LOCAL_MODULE_CLASS := EXECUTABLES

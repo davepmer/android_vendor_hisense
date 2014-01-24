@@ -16,6 +16,8 @@
 PRODUCT_PACKAGES := \
     camera.tegra3 \
     libdrmwvmplugin \
+    libasound \
+    libaudioavp \
     libsensors.lightsensor \
     libwvm \
     tlv320aic3206_fw_v1

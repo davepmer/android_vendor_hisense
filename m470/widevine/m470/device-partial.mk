@@ -14,6 +14,9 @@
 
 # Widevine blob(s) necessary for m470 hardware
 PRODUCT_PACKAGES := \
-    libdrmdecrypt \
+    libdrm1 \
+    libdrm1_jni \
     libwvdrm_L1 \
-    libWVStreamControlAPI_L1
+    libWVphoneAPI \
+    libWVStreamControlAPI_L1 \
+    test-wvdrmplugin

@@ -37,6 +37,26 @@ LOCAL_MODULE_OWNER := hisense
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libasound
+LOCAL_SRC_FILES := libasound.so
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := hisense
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libaudioavp
+LOCAL_SRC_FILES := libaudioavp.so
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := hisense
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libsensors.lightsensor
 LOCAL_SRC_FILES := libsensors.lightsensor.so
 LOCAL_MODULE_SUFFIX := .so

@@ -12,23 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# /system/app
-PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/proprietary/app/DrmProvider.apk:system/app/DrmProvider.apk
-
-
-# /system/etc
-PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/proprietary/etc/m470-stock-drm:system/etc/m470-stock-drm
-
-# /system/etc/permissions
-PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/proprietary/etc/permissions/com.google.widevine.software.drm.xml:system/etc/permissions/com.google.widevine.software.drm.xml
-
-# /system/etc/permissions
-PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar
-
 # /system/lib/hw
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/hw/audio.primary.tegra3.so:system/lib/hw/audio.primary.tegra3.so \
@@ -67,6 +50,3 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libtjpg.so:system/lib/libtjpg.so \
     vendor/hisense/m470/proprietary/lib/scapture.so:system/lib/scapture.so
 
-# /system/vendor/lib
-PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so

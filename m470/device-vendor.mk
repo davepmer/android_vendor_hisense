@@ -14,13 +14,23 @@
 
 # Pick up overlay for features that depend on non-open-source files
 
-LOCAL_STEM := m470/device-partial.mk
+LOCAL_STEM := device-partial.mk
 
 $(call inherit-product-if-exists, vendor/hisense/m470/broadcom/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/hisense/m470/hisense/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/hisense/m470/invensense/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/hisense/m470/nvidia/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/hisense/m470/widevine/$(LOCAL_STEM))
+
+DAVES_DRM := m470
+$(call inherit-product-if-exists, vendor/hisense/m470/widevine-m470/$(LOCAL_STEM))
+
+
+# DAVES_DRM := grouper
+# $(call inherit-product-if-exists, vendor/hisense/m470/widevine-grouper/$(LOCAL_STEM))
+
+
+# DAVES_DRM := tf300t
+# $(call inherit-product-if-exists, vendor/hisense/m470/widevine-tf300t/$(LOCAL_STEM))
 
 PRODUCT_RESTRICT_VENDOR_FILES := owner
 

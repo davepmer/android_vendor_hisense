@@ -15,7 +15,7 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),m470)
-ifeq ($DAVES_DRM),grouper)
+ifeq ($(DAVES_DRM),grouper)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdrmdecrypt

@@ -42,7 +42,6 @@ PRODUCT_PACKAGES := \
     libnvcpud \
     libnvddk_2d \
     libnvddk_2d_v2 \
-    libnvdispmgr_d \
     libnvglsi \
     libnvhdmi3dplay_jni \
     libnvmm_asfparser \
@@ -58,7 +57,6 @@ PRODUCT_PACKAGES := \
     libnvmmlite_utils \
     libnvmmlite_video \
     libnvmm_manager \
-    libnvmm_misc \
     libnvmm_msaudio \
     libnvmm_parser \
     libnvmm_service \

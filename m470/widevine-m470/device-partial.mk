@@ -8,7 +8,7 @@ PRODUCT_PACKAGES := \
     libwvm \
     test-wvdrmplugin \
     tf_daemon
-   
+
 # /system/app
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/widevine-m470/proprietary/DrmProvider.apk:system/app/DrmProvider.apk

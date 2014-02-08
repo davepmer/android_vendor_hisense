@@ -14,8 +14,12 @@
 
 # /system/lib/hw
 PRODUCT_COPY_FILES += \
+    vendor/hisense/m470/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+    vendor/hisense/m470/proprietary/lib/hw/audio.primary.default.so:system/lib/hw/audio.primary.default.so \
     vendor/hisense/m470/proprietary/lib/hw/audio.primary.tegra3.so:system/lib/hw/audio.primary.tegra3.so \
+    vendor/hisense/m470/proprietary/lib/hw/audio.usb.default.so:system/lib/hw/audio.usb.default.so \
     vendor/hisense/m470/proprietary/lib/hw/audio_policy.tegra3.so:system/lib/hw/audio_policy.tegra3.so \
+    vendor/hisense/m470/proprietary/lib/hw/audio_policy.default.so:system/lib/hw/audio_policy.default.so \
     vendor/hisense/m470/proprietary/lib/hw/nfc.tegra3.so:system/lib/hw/nfc.tegra3.so \
     vendor/hisense/m470/proprietary/lib/hw/nfc_nci_nfca.default.so:system/lib/hw/nfc_nci_nfca.default.so \
     vendor/hisense/m470/proprietary/lib/hw/sensors.default.so:system/lib/hw/sensors.default.so
@@ -25,7 +29,6 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/bcapture.so:system/lib/bcapture.so \
     vendor/hisense/m470/proprietary/lib/libagps-brcm4751.so:system/lib/libagps-brcm4751.so \
     vendor/hisense/m470/proprietary/lib/libAppDataSearch.so:system/lib/libAppDataSearch.so \
-    vendor/hisense/m470/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
     vendor/hisense/m470/proprietary/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/hisense/m470/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
     vendor/hisense/m470/proprietary/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \
@@ -46,7 +49,5 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/libspeexwrapper.so:system/lib/libspeexwrapper.so \
     vendor/hisense/m470/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
     vendor/hisense/m470/proprietary/lib/libtbb.so:system/lib/libtbb.so \
-    vendor/hisense/m470/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
-    vendor/hisense/m470/proprietary/lib/libtjpg.so:system/lib/libtjpg.so \
     vendor/hisense/m470/proprietary/lib/scapture.so:system/lib/scapture.so
 

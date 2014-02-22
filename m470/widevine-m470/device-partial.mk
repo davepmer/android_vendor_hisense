@@ -1,7 +1,6 @@
 #DRM Packages
 PRODUCT_PACKAGES := \
     libdrmwvmplugin \
-    libstagefrighthw \
     libtf_crypto_sst \
     libwvdrm_L1 \
     libWVStreamControlAPI_L1 \
@@ -12,10 +11,6 @@ PRODUCT_PACKAGES := \
 # /system/app
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/widevine-m470/proprietary/DrmProvider.apk:system/app/DrmProvider.apk
-
-# /system/etc
-PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/widevine-m470/proprietary/m470-stock-drm:system/etc/m470-stock-drm
 
 # /system/etc/permissions
 PRODUCT_COPY_FILES += \

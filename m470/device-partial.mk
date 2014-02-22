@@ -12,6 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# /system/app
+PRODUCT_COPY_FILE += \
+    vendor/hisense/m470/proprietary/app/jp.miraidou.regpon.wifi-1.apk:system/app/jp.miraidou.regpon.wifi-1.apk   
+
 # /system/lib/hw
 PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
@@ -29,6 +33,8 @@ PRODUCT_COPY_FILES += \
     vendor/hisense/m470/proprietary/lib/bcapture.so:system/lib/bcapture.so \
     vendor/hisense/m470/proprietary/lib/libagps-brcm4751.so:system/lib/libagps-brcm4751.so \
     vendor/hisense/m470/proprietary/lib/libAppDataSearch.so:system/lib/libAppDataSearch.so \
+    vendor/hisense/m470/proprietary/lib/libasound.so:system/lib/libasound.so \
+    vendor/hisense/m470/proprietary/lib/libaudioavp.so:system/lib/libaudioavp.so \
     vendor/hisense/m470/proprietary/lib/libchromeview.so:system/lib/libchromeview.so \
     vendor/hisense/m470/proprietary/lib/libcplconnectclient.so:system/lib/libcplconnectclient.so \
     vendor/hisense/m470/proprietary/lib/libfacelock_jni.so:system/lib/libfacelock_jni.so \

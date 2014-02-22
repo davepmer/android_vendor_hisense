@@ -15,6 +15,4 @@
 # Hisense blob(s) necessary for m470 hardware
 PRODUCT_PACKAGES := \
     camera.tegra3 \
-    libaudioavp \
-    libtinyalsa \
     tlv320aic3206_fw_v1

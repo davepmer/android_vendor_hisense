@@ -28,16 +28,6 @@ LOCAL_MODULE_OWNER := hisense
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libstagefrighthw
-LOCAL_SRC_FILES := libstagefrighthw.so
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_PATH := $(TARGET_OUT)/lib
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_OWNER := widevine
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libtf_crypto_sst
 LOCAL_SRC_FILES := libtf_crypto_sst.so
 LOCAL_MODULE_SUFFIX := .so

@@ -91,13 +91,11 @@ PRODUCT_PACKAGES := \
     nvavp_vid_ucode_alt \
     nvavp_vid_ucode \
     nvcamera \
+    NvCPLSvc \
     nvcpud \
     nv_hciattach \
     nvram_4330 \
     tegrastats
 
-# /system/app
-PRODUCT_COPY_FILES +=\
-    vendor/hisense/m470/nvidia/proprietary/NvCPLSvc.apk:system/app/NvCPLSvc.apk
 
 

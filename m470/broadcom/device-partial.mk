@@ -18,9 +18,8 @@ PRODUCT_PACKAGES := \
     btmacwriter \
     glgps_nvidiaTegra2android \
     gpsconfig \
+    GPSTest \
     gps.tegra3 \
     fw_bcmdhd_test
 
-# /system/app
-PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/broadcom/proprietary/GPSTest.apk:system/app/GPSTest.apk
+

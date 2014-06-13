@@ -1,5 +1,6 @@
 #DRM Packages
 PRODUCT_PACKAGES := \
+    DrmProvider.apk \
     libdrmwvmplugin \
     libtf_crypto_sst \
     libwvdrm_L1 \
@@ -7,10 +8,6 @@ PRODUCT_PACKAGES := \
     libwvm \
     test-wvdrmplugin \
     tf_daemon
-
-# /system/app
-PRODUCT_COPY_FILES += \
-    vendor/hisense/m470/widevine-m470/proprietary/DrmProvider.apk:system/app/DrmProvider.apk
 
 # /system/etc/permissions
 PRODUCT_COPY_FILES += \

@@ -15,7 +15,6 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),m470)
-ifeq ($(DAVES_DRM),m470)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libdrmwvmplugin
@@ -85,5 +84,16 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_OWNER := widevine
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := DrmProvider
+LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
+LOCAL_MODULE_TAGS := optional
+# tell dexopt not to try resigning the apks
+LOCAL_CERTIFICATE := PRESIGNED
+
+include $(BUILD_PREBUILT)
+
 endif
-endif
+

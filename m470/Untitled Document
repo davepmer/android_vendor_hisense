@@ -1,5 +1,0 @@
-
-    vendor/hisense/m470/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
-    vendor/hisense/m470/proprietary/lib/libtjpg.so:system/lib/libtjpg.so \
-
-    vendor/hisense/m470/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \

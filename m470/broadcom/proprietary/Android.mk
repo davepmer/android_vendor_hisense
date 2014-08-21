@@ -56,6 +56,15 @@ LOCAL_MODULE_OWNER := broadcom
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := get-gps-lto
+LOCAL_SRC_FILES := get-gps-lto
+LOCAL_MODULE_CLASS := EXECUTABLES
+LOCAL_MODULE_PATH := $(TARGET_OUT_EXECUTABLES)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_OWNER := broadcom
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := glgps_nvidiaTegra2android
 LOCAL_SRC_FILES := glgps_nvidiaTegra2android
 LOCAL_MODULE_CLASS := EXECUTABLES
